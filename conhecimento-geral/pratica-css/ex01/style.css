@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'gimer';
+    src: url('fonts/Gimme\ Danger.ttf') format('truetype');
+}
+
+body{
+    background-color: black;
+}
+
+#praticando{
+    background-color: white;
+    font: normal bolder 2em 'gimer';
+    text-align: center;
+    color: darkred
+}
+
+.perfeicao{
+    color: darkred;
+    background-color: white;
+}
+
+p{
+    color: white;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+h2{
+    color: rgb(41, 41, 107);
+    font-size: 2em;
+}
+
+.pratica2{
+    color: #33658A;
+    text-align: right;
+}
+
+.fim{
+    color: darkred;
+    background-color: white;
+    font-weight: bolder
+}
+
+.d1{
+    display: inline-block;
+    color: red;
+    border: 1px solid gray;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+.d3{
+    display: inline-block;
+    color: red;
+    border: 1px solid gray;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover{
+    background-color: white;
+}
+
+div > p {
+        display: none;
+}
+
+div:hover > p{
+        display: block;
+        
+}
+
+.imagem{
+    font-size: 2em;
+}
+
+.mouse{
+    color: blueviolet;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+a:visited{
+    color: darkgreen;
+}
+
+a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+.especial{
+    background-color:beige
+}
+
+.especial::before{
+    content: '⇒';
+}
+
+.especial::after{
+    content: '⇐';
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px darkred;
+    width: 300px;
+    padding: 10px;
+    height: 500px;
+    
+}
+
+.destaque{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkred;
+}
+
+.destaque1{
+    color: black;
+}
