@@ -10,6 +10,7 @@
     --cor04: #000505;
     --cor05: #140F14;
     --cor06: #282433;
+    --cor07: rgb(180, 180, 43);
 
     --fonte-padrao: Arial, verdana, helvetica, sans-serif;
     --fonte-destaque: 'Kanit', sans-serif; 
@@ -75,7 +76,10 @@ nav > a:hover{
     transition-duration: .5s;
 }
 
-nav.navdestaque{
-    background-color: var(--cor03);
-    height: 20px;
+main{
+    background-color: var(--cor05);
+    min-width: 280px;
+    padding: 40px;
 }
+
+
