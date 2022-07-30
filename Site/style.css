@@ -92,39 +92,25 @@ main{
     min-width: 200px;
     padding: 100px 80px 10px 80px;
     margin: auto;
-
 }
-    
-main > div.destaqueinicial{
-    display:inline-block;
+
+div.pesquisa{
     background-color: lightgray;
-    padding: -1px 10px 10px 10px;
-    margin: 0px 0px 20px 0px;
-    height: 200px;
-    width: 500px;
-    
+    max-width: 50px;
+    min-width: 280px;
+    padding: 17px 10px 10px 10px;
+    margin: -80px 20px 20px 20px;
+    border-radius: 26px;
 }
 
 .imagemlink{
     
+    max-width: 80%;
+    margin: 0px 0px 20px;
+
 }
 
-main > div.videoyt{
-    background-color: var(--cor05);
-    margin: 0px -80px 30px -80px ;
-    padding: 20px;
-    padding-bottom: 50%;
 
-    position: relative;
-}
-
-div.videoyt > iframe{
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-}
 
 footer{
         background-color: var(--cor04);
