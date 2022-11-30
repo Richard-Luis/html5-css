@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox and radio</title>
+</head>
+<body>
+    
+    <h1>exemple of form</h1>
+
+    <form action="cadastro.php" method="post">
+
+        <fieldset>
+
+            <legend>Sexo</legend>
+            <input type="radio" name="Sexo" id="imasc" value="M"> <label for="imasc">Masculino</label>
+            <input type="radio" name="Sexo" id="ifem" value="F"> <label for="ifem">Feminino</label>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Favorites sports</legend>
+
+            <input type="checkbox" name="ebas" id="iesbas"> <label for="iesbas">Basketball</label>
+            <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Football</label>           
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Swimming</label>
+            <input type="checkbox" name="esten" id="iesten"> <label for="iesten">Tennis</label>
+
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
